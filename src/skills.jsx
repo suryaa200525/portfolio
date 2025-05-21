@@ -12,10 +12,12 @@ import canva from './assets/canva.jpg'
 
 function Skills(){
     return(
-        <>
-        <h1 className="font-poppins font-bold  text-[40px] mt-2 text-center">Skills</h1>
+      <>
+      <h1 className="font-poppins font-bold  text-[40px] mt-2 text-center">Skills</h1>
+        <div className='mt-10'>
+        
                         
-            <div className="max-w-4xl bg-white shadow-lg rounded-2xl mt-4 mx-4 p-4 grid grid-cols-2 sm:grid-cols-5 gap-4 sm:mx-auto sm:mt-6">
+            <div className="max-w-4xl bg-white shadow-lg rounded-2xl mt-4 mx-4 p-4 grid grid-cols-2 sm:grid-cols-5 gap-11 sm:mx-auto sm:mt-6">
                 <div className="flex flex-col items-center">
                     <img src={html} alt="HTML" className="h-12 w-12" />
                     <h2 className="text-black mt-2">HTML</h2>
@@ -59,7 +61,8 @@ function Skills(){
             </div>
 
      
-        </>
+        </div></>  
+        
         
 
     )

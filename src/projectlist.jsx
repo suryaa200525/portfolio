@@ -3,7 +3,7 @@ import css from './assets/css.jpg'
 import js from './assets/js_1.png'
 import react_photo from './assets/icon-react.png'
 import Project from "./Project"
-import fitme from './assets/new logo'
+import fitme from './assets/new logo.jpg'
 
 function Projectlist() {
     const projectlist = [

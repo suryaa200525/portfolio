@@ -41,7 +41,7 @@ function Navbar() {
 
  
       <div
-       className={`sm:hidden fixed top-[64px] right-0 w-3/4 max-w-xs bg-black/60 text-white shadow-lg transition-all duration-300 z-50 ${
+       className={`sm:hidden fixed top-[64px] right-0 w-3/4 max-w-xs bg-white text-white shadow-lg transition-all duration-300 z-50 ${
     menuOpen ? "translate-x-0 opacity-100" : "translate-x-full opacity-0 pointer-events-none"
   }`}
       >
