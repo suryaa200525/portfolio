@@ -3,11 +3,12 @@ import css from './assets/css.jpg'
 import js from './assets/js_1.png'
 import react_photo from './assets/icon-react.png'
 import Project from "./Project"
+import fitme from './assets/new logo'
 
 function Projectlist() {
     const projectlist = [
         {
-            img: html,
+            img: fitme,
             projectname: "Fitme",
             projectdescription: "I have Developed a web application  that provides personalized dietary recommendations based on user’s Height, Weight, and BMI,Maintenance calorie. Integrated features allowing users to view their personal details, access trainer profiles, and book trainers for customized fitness guidance and It suggest the basics workouts i have used html,css,js for developing and figma for designing"
         },
