@@ -10,7 +10,7 @@ function Project(props) {
                     <img
                         src={props.img}
                         alt="Project Preview"
-                        className="h-52 sm:h-44 w-full sm:w-64 object-cover rounded-md mb-4 sm:mb-0 sm:mr-6"
+                        className="h-52 sm:h-44 sm:w-64 object-cover rounded-md mb-4 sm:mb-0 sm:mr-6"
                             />
 
                     <div className="flex flex-col justify-between w-full text-center sm:text-left">

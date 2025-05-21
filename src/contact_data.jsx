@@ -33,7 +33,7 @@ const handleSubmit = (e) => {
       .then((response) => {
         if (response.ok) {
           alert("Message sent successfully!");
-          setData({ name: "", subject: "", message: "" });
+          setdata({ name: "", subject: "", message: "" });
         } else {
           alert("Failed to send message.");
         }
