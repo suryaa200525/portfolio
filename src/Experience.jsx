@@ -12,7 +12,7 @@ function Experience() {
         />
 
         <div className="flex flex-col text-center sm:text-left">
-          <h1 className="text-2xl sm:text-3xl font-poppins font-bold mt-2">Front-End Developer Intership</h1>
+          <h1 className="text-2xl sm:text-3xl font-poppins font-bold mt-2">Front-End Developer Internship</h1>
           <h2 className="text-sm sm:text-base mt-1 mb-2 font-medium">
             Company: <span className="font-semibold">Greatify</span> | Duration: <span className="font-semibold">April 2025 – May 2025</span>
           </h2>
