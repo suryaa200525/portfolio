@@ -4,7 +4,7 @@ import weather_app from "./assets/weather_app.png";
 
 import portfolio from "./assets/portfolio.png";
 import ecommerce from "./assets/e commerce.png";
-import fitme from "./assets/Fitme.png";
+import fitme from "./assets/fitme.png";
 
 function ProjectList() {
     const projects = [
