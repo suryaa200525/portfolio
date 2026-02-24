@@ -1,61 +1,65 @@
-import html from './assets/html_photo.png'
-import css from './assets/css.jpg'
-import js from './assets/js_1.png'
-import react_photo from './assets/icon-react.png'
-import Project from "./Project"
-import fitme from './assets/new logo.jpg'
-import portfolio from './assets/portfolio.png'
-import E_Commerce from './assets/e commerce.png'
-import weather_app from './assets/weather_app.png'
+import Project from "./Project";
 
-function Projectlist() {
-    const projectlist = [
+import weather_app from "./assets/weather_app.png";
+
+import portfolio from "./assets/portfolio.png";
+import ecommerce from "./assets/e commerce.png";
+import fitme from "./assets/Fitme.png";
+
+function ProjectList() {
+    const projects = [
         {
-            img: fitme,
-            projectname: "Fitme",
-            projectdescription: "I have Developed a web application  that provides personalized dietary recommendations based on user’s Height, Weight, and BMI,Maintenance calorie. Integrated features allowing users to view their personal details, access trainer profiles, and book trainers for customized fitness guidance and It suggest the basics workouts i have used html,css,js for developing and figma for designing"
+            img: weather_app,
+            name: "Weather App",
+            description:
+                "Responsive weather app that fetches real-time weather data using OpenWeatherMap API. Built with React.",
+            githubLink: "https://github.com/suryaa200525/Weather-App",
+            liveLink: "https://weatherfully.vercel.app/",
         },
         {
-            img:E_Commerce,
-            projectname: "E commerce ",
-            projectdescription: "I have Developed a front-end E-commerce web application it fetches data form the api and display it on website and i have integrated many features like add to cart feature and I have used Html,css,js for developing and figma for designing "
+            img: fitme,
+            name: "FitMe",
+            description:
+                "Fitness web app providing BMI calculation, maintenance calories, workout suggestions, and trainer booking.(On Going Project)",
+            githubLink: "https://github.com/suryaa200525",
+            
         },
         {
             img: portfolio,
-            projectname: "Portfolio ",
-            projectdescription: "I have Developed a portfolio for Me and i have used   Html,Css,Js,React js,Tailwind css for developing and Figma for designing "
+            name: "Portfolio",
+            description:
+                "Personal portfolio built using React, Tailwind CSS.",
+            githubLink: "https://github.com/suryaa200525/portfolio",
+            liveLink: "https://portfolio-suryaa200525s-projects.vercel.app/projects",
         },
         {
-            img: css,
-            projectname: "GPA and CGPA calculator ",
-            projectdescription: " I have Developed a Web application for calculating GPA and CGPA Where user want to enter their subjects and credits based on user data gpa and cgpa is calculated "
+            img: ecommerce,
+            name: "E-Commerce",
+            description:
+                "Frontend e-commerce website with add-to-cart functionality and API-based product listing.",
+            githubLink: "https://github.com/suryaa200525/e-commerce",
+            liveLink: "https://e-commerce-landing-page-mu-liard.vercel.app/",
         },
-        {
-            img: weather_app,
-            projectname: "Weather App",
-            projectdescription: "  A responsive app that fetches real-time weather data (temperature, humidity, pressure, feels like) using the OpenWeatherMap API. Built with React and styled for mobile and desktop. "
-        }
     ];
 
-    const list = projectlist.map((project, index) => (
-        <Project
-            key={index}
-            img={project.img}
-            name={project.projectname}
-            description={project.projectdescription}
-        />
-    ));
-
     return (
-        <>
-         <h1 className="font-poppins font-bold  text-[40px] mt-2 text-center">Projects</h1>
+        <section id="projects" className="w-full">
+            <h1 className="font-bold text-[40px] text-center mt-6">
+                Projects
+            </h1>
 
-         <div>
-            {list}
-        </div>
-        </>
-       
+            {projects.map((project, index) => (
+                <Project
+                    key={index}
+                    img={project.img}
+                    name={project.name}
+                    description={project.description}
+                    githubLink={project.githubLink}
+                    liveLink={project.liveLink}
+                />
+            ))}
+        </section>
     );
 }
 
-export default Projectlist;
+export default ProjectList;

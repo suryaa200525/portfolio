@@ -19,7 +19,7 @@ function About() {
                 View Projects
               </button>
             </a>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/14w_M2ecBKPwLQq5pT5TU468UyaI9EoUh/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
               <button className="btn border border-blue-600 text-blue-600 px-6 py-2 rounded hover:bg-blue-600 hover:text-white transition-all">
                 Download Resume
               </button>
