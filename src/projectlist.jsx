@@ -2,7 +2,7 @@ import Project from "./Project";
 
 import weather_app from "./assets/weather_app.png";
 
-import portfolio from "./assets/portfolio.png";
+import smartplace from "./assets/smartplace.png";
 import ecommerce from "./assets/e commerce.png";
 import fitme from "./assets/fitme.png";
 
@@ -23,14 +23,16 @@ function ProjectList() {
                 "Fitness web app providing BMI calculation, maintenance calories, workout suggestions, and trainer booking.(On Going Project)",
             githubLink: "https://github.com/suryaa200525",
             
+
+            
         },
         {
-            img: portfolio,
-            name: "Portfolio",
+            img: smartplace,
+            name: "Smart Place",
             description:
-                "Personal portfolio built using React, Tailwind CSS.",
-            githubLink: "https://github.com/suryaa200525/portfolio",
-            liveLink: "https://portfolio-suryaa200525s-projects.vercel.app/projects",
+                "SmartPlace is an AI-powered campus placement platform designed to streamline the recruitment process for students, recruiters, and placement coordinators. It features intelligent resume matching, job approval workflows, application verification, and real-time tracking, ensuring efficient candidate shortlisting and transparent recruitment management. By automating key placement activities and providing analytics-driven insights, SmartPlace enhances opportunities for students while simplifying recruitment operations for organizations and placement teams.",
+            githubLink: "https://github.com/suryaa200525/SMARTPLACE/tree/main/smartplace%20ai_modified",
+           
         },
         {
             img: ecommerce,

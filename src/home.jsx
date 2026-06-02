@@ -1,25 +1,37 @@
-import photo from'./assets/photo.jpg'
+import photo from './assets/Suryaaphoto.jpeg';
 
-function Home(){
-    return(
-        <>
-        
-            <div className="flex flex-col items-center justify-center mt-10 align-middle flex-wrap space-x-6 ">
-            <div className="flex flex-col flex-wrap p-2 m-1">
-                <h1 className="ont-bold text-center text-3xl sm:text-4xl md:text-5xl tracking-tight leading-tight">Hi I am Suryaa.V.G </h1>
-                <h1 className="text-blue-200 font-semibold text-xl sm:text-2xl md:text-3xl text-center mt-8 leading-relaxed"> IT Engineering student and Front-End Developer specializing in modern, responsive  web interfaces.</h1>
+function Home() {
+    return (
+        <section className="pt-20 md:pt-24 px-6 md:px-16 lg:px-24">
+            <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-12">
+
+                {/* Content */}
+                <div className="md:w-3/5 text-center md:text-left">
+                    <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
+                        Hi, I'm <span className="text-blue-400">Suryaa V.G</span>
+                    </h1>
+
+                    <h2 className="mt-4 text-xl sm:text-2xl lg:text-3xl font-semibold text-gray-300">
+                        B.Tech IT Graduate & Front-End Developer
+                    </h2>
+
+                    
+
+                    
+                </div>
+
+                {/* Photo */}
+                <div className="md:w-2/5 flex justify-center">
+                    <img
+                        src={photo}
+                        alt="Suryaa"
+                        className="w-72 h-72 md:w-[380px] md:h-[380px] object-cover rounded-full border-4 border-black-400 shadow-2xl"
+                    />
+                </div>
 
             </div>
-            <div className="m-1 p-2 mt-10 ">
-                <img src={photo} alt="photo" class="pic"/>
-            </div>
-
-        </div>
-     
-        
-        </>
-       
-
-    )
+        </section>
+    );
 }
-export default Home
+
+export default Home;
