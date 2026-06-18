@@ -18,7 +18,7 @@ Hello! I'm <span className="font-bold text-blue-600">VG Suryaa</span>, a passion
                 View Projects
               </button>
             </a>
-            <a href="https://drive.google.com/file/d/1aPQ1UcSmJypP1Ddx625SoBO3evRdq9AE/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/12jl01bY7-2w1-04EZsWFoe9Pzmv9aSLN/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
               <button className="btn border border-blue-600 text-blue-600 px-6 py-2 rounded hover:bg-blue-600 hover:text-white transition-all">
                 Download Resume
               </button>
